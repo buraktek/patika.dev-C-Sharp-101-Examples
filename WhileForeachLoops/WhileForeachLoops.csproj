@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\ProjectSettings.json" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\PatikaDev-Csharp\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\PatikaDevPractices\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".vs\PatikaDev-Csharp\v16\" />
+  </ItemGroup>
+
+</Project>
